@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="colorAccent">#FF4081</color>
+        <color name="colorBack">#120000</color>
+        <color name="colorRed">#f20e0e</color>
+        <color name="edit_textok">#e6e6e6</color>
+
+    </resources>

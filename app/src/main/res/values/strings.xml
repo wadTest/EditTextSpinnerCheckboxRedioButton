@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+    <resources>
+
+    <string name="app_name">Port to MySQL</string>
+
+    <string name="action_settings">Settings</string>
+        <string name="edit_praped">กรรมสิทธิ์</string>
+        <string name="edit_number1">เลขที่</string>
+        <string name="edit_ntee">เนื้อที่ดิน</string>
+        <string name="edit_province">จังหวัด</string>
+        <string name="aumpor">อำเภอ</string>
+        <string name="edit_text">กรอกรายละเอียด</string>
+        <string name="SaveData">Save</string>
+
+    </resources>
