@@ -74,7 +74,7 @@ public class Add_Lands  {
                                         nameTxt.setText("");
                                         spinnerTxt.setSelection(0);
                                     } else {
-                                        Toast.makeText(c, "ไม่ประสบความสำเร็จ : ", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(c, "ไม่ประสบความสำเร็จ", Toast.LENGTH_SHORT).show();
 
                                     }
 

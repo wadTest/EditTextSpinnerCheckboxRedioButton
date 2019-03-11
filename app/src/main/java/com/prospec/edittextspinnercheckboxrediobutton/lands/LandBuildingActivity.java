@@ -123,7 +123,8 @@ public class LandBuildingActivity extends AppCompatActivity {
                 //BASIC CLIENT SIDE VALIDATION
                 if ((editText1.length() < 1 || editText2.length() < 1 || editText5.length() < 1
                         || editText6.length() < 1 || editText7.length() < 1 || editText8.length() < 1
-                        || spinner1.length() < 1 || spinner2.length() < 1 || spinner3.length() < 1 || spinner4.length() < 1 || spinner5.length() < 1 || spinner6.length() < 1)) {
+                        || spinner1.length() < 1 || spinner2.length() < 1 || spinner3.length() < 1 || spinner4.length() < 1
+                        || spinner5.length() < 1 || spinner6.length() < 1)) {
 
                     Toast.makeText(LandBuildingActivity.this, "กรุณากรอกทุกช่อง", Toast.LENGTH_SHORT).show();
 
@@ -153,7 +154,6 @@ public class LandBuildingActivity extends AppCompatActivity {
                     s.setCb3(checkbox3 ? 1 : 0);
                     s.setCb4(checkbox4 ? 1 : 0);
                     s.setCb6(checkbox6 ? 1 : 0);
-
 
                     new Add_Lands(LandBuildingActivity.this).add(s,edit1, edit2, edit3, edit4, edit5, edit6,
                             edit7, edit7, edit8, edit9, edit10, edit11, spin1, spin2, spin3, spin4, spin5, spin6);
